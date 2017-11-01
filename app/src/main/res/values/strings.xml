@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Expenses</string>
+    <string name="date_edit">Datum eintragen</string>
+    <string name="date_hint">yyyy-mm-dd</string>
+    <string name="date_text">Datum:</string>
+    <string name="submit_button">Eintragen</string>
+    <string name="category_hint">Kategorie eintragen</string>
+    <string name="category_edit">Kategorie eintragen</string>
+    <string name="category_text">Kategorie:</string>
+    <string name="expense_hint">Ausgabe eintragen (Zahl)</string>
+    <string name="expense_text">Ausgabe:</string>
+    <string name="expense_edit">Ausgabe...</string>
+    <string name="load_button">Laden</string>
+</resources>

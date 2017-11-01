@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+
+
+    <ListView
+        android:id="@+id/resultList"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.87" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/clearAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cleaerAll" />
+
+        <Button
+            android:id="@+id/create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="create"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/clearAll"
+            android:layout_toEndOf="@+id/clearAll" />
+
+        <Button
+            android:id="@+id/clearFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/create"
+            android:layout_toRightOf="@+id/create"
+            android:text="clearFirst" />
+
+        <Button
+            android:id="@+id/updateFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/clearFirst"
+            android:layout_toRightOf="@+id/clearFirst"
+            android:text="updateFirst" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
